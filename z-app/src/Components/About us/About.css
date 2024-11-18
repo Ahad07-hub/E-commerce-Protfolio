@@ -1,0 +1,858 @@
+.Bout{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+.Bout-hp h1{
+    margin-top: 100px;
+    width: 540px;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.Bout-hp span{
+    color: #00a797;
+}
+
+.Bout-hp p{
+    margin-top: 17px;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #585858;
+}
+
+.Bout-b{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.Bout-b button{
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.Bout-b :nth-child(1){
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+}
+
+.Bout-b :nth-child(2){
+    background-color: #00a797;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.Bout-im{
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.Bout-im img{
+    height: 300px;
+    margin-left: 55px;
+}
+
+
+
+/* OUR STORY */
+
+.story{
+    margin-top: 120px;
+}
+
+.story-1 h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.story-1 h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #00a797;
+}
+
+.story-1 >p{
+    width: 900px;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+
+/* CARD */
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.Misson-1{
+    background-color: #00a797;
+    width: 450px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+.Misson-1 h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+.Misson-1 p{
+    width: 400px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: white;
+}
+
+.Misson-2{
+    background-color: #00a797;
+    width: 450px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+.Misson-2 h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+.Misson-2 p{
+    width: 430px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* GLEAM */
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.gleam{
+    margin-top: 70px;
+}
+
+.gleam h1{
+    text-align: center;
+}
+
+.gleam-1{
+    background-color: white;
+    box-shadow: -7px 13px 49px -3px rgba(0,0,0,0.30);
+    border-radius: 10px;
+    width: 330px;
+    height: 365px;
+}
+
+.gleam-1 h2{
+    text-align: center;
+    color: #00a797;
+}
+
+.gleam-1 img{
+    height: 160px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.gleam-1 p{
+    width: 300px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* .gleam-2 */
+
+.gleam-2{
+    background-color: white;
+    box-shadow: -7px 13px 49px -3px rgba(0,0,0,0.30);
+    border-radius: 10px;
+    width: 330px;
+    height: 365px;
+}
+
+.gleam-2 h2{
+    text-align: center;
+    color:#00a797;
+}
+
+.gleam-2 img{
+    height: 160px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.gleam-2 p{
+    width: 270px;
+    margin-left: 27px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* .gleam-3 */
+
+.gleam-3{
+    background-color: white;
+    box-shadow: -7px 13px 49px -3px rgba(0,0,0,0.30);
+    border-radius: 10px;
+    width: 330px;
+    height: 365px;
+}
+
+.gleam-3 h2{
+    text-align: center;
+    color: #00a797;
+}
+
+.gleam-3 img{
+    height: 160px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.gleam-3 p{
+    width: 300px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* PIONEERING SOLUTIONS */
+
+.pion h1{
+    width: 500px;
+    text-align: center;
+    margin-left: 440px;
+}
+
+.pion{
+    margin-top: 70px;
+}
+
+.pion-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.pion-1 img{
+    height: 600px;
+}
+
+.pion-1 p{
+    width: 500px;
+}
+
+.pion-2{
+    margin-top: 30px;
+}
+
+.pion-2 p{
+    margin-top: 10px;
+}
+
+.pion-2 h2{
+    margin-top: 20px;
+}
+
+/* CLIENT EDUCATION AND EMPOWERMENT */
+
+.client{
+    margin-top: 50px;
+}
+
+.client h1{
+    text-align: center;
+}
+
+.client-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.client-1 img{
+    height: 300px;
+}
+
+.client-2{
+    margin-top: 50px;
+}
+
+.client-2 p{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.client-2 h3{
+    text-align: left;
+}
+
+/* supp */
+
+.supp{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.supp img{
+    height: 300px;
+}
+
+.supp-1{
+    margin-top: 50px;
+}
+
+.supp p{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.supp h3{
+    text-align: left;
+}
+
+/* CLIENT TESTIMONIALS */
+
+.test{
+    margin-top: 40px;
+}
+
+.test h1{
+    text-align: center;
+}
+
+.test-im{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.test-im img{
+    height: 330px;
+}
+
+
+/* BRANDS */
+
+.brand{
+    margin-top: 50px;
+}
+
+.brand h1{
+    text-align: center;
+}
+
+.brand-im{
+    text-align: center;
+}
+
+.brand-im img{
+    height: 50px;
+    margin-top: 10px;
+}
+
+.brand-hp h2{
+    margin-top: 10px;
+}
+
+.brand-hp p{
+    width: 530px;
+    text-align: center;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 900px;
+    align-items: center;
+    margin-left: 220px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.end button{
+    background-color: #00a797;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-left: 100px;
+}
+
+
+/* Bout RESPONSIVE */
+
+@media screen and (max-width:1024px){
+    .Bout{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0%;
+    }
+    .Bout-hp h1{
+        text-align: center;
+        font-size: 30px;
+        width: 600px;
+        height: 83.5px;
+        margin-top: 5px;
+        line-height: 40px;
+    }
+    .Bout-hp p{
+        text-align: center;
+        width: 600px;
+        height: 60px;
+        margin-top: -20px;
+    }
+    .Bout-b{
+        justify-content: center;
+        padding-top: 20px;
+        margin-top: 35px;
+    }
+    .Bout-im img{
+        height: 400px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+
+    /* OUR STORY RESPONSIVE */
+
+    .story-1 p{
+        margin-left: 165px;
+        width: 700px;
+    }
+
+    .card{
+        margin-left: 10px;
+    }
+
+    .Misson-1{
+        width: 350px;
+        height: 300px;
+    }
+    .Misson-1 p{
+        width: 320px;
+    }
+
+    .Misson-2{
+        width: 350px;
+        height: 300px;
+    }
+
+    .Misson-2 p{
+        width: 280px;
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+
+    /* THE GLEAM VALUES */
+
+    .gleam-1{
+        width: 300px;
+        height: 320px;
+    }
+    .gleam-1 img{
+        height: 130px;
+        margin-top: 5px;
+    }
+    .gleam-1 p{
+        margin-left: 2px;
+    }
+
+    /* .gleam-2 */
+
+    .gleam-2{
+        width: 300px;
+        height: 320px;
+    }
+    .gleam-2 img{
+        height: 130px;
+        margin-top: 5px;
+    }
+    .gleam-2 p{
+        margin-left: 13px;
+    }
+
+    /* .gleam-3 */
+
+    .gleam-3{
+        width: 300px;
+        height: 320px;
+    }
+    .gleam-3 img{
+        height: 130px;
+        margin-top: 5px;
+    }
+    .gleam-3 p{
+        margin-left: 9px;
+        width: 285px;
+    }
+
+    /* PIONEERING GLEAM */
+
+    .pion h1{
+        margin-left: 270px;
+    }
+    .pion-1 img{
+        height: 500px;
+    }
+    .pion-2{
+        margin-top: 15px;
+    }
+
+    /* CLIENT EDUCATION EMPOWERMENT */
+
+    .client-1 img{
+        height: 230px;
+        margin-left: 70px;
+    }
+    .client-1{
+        margin-left: 50px;
+    }
+    .supp img{
+        height: 230px;
+    }
+
+    .test-im img{
+        height: 300px;
+    }
+
+    .brand-hp p{
+        margin-left: 250px;
+    }
+
+    .end{
+        margin-left: 60px;
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+    .Bout-im img{
+        height: 300px;
+    }
+
+    /* OUR STORY  */
+
+    .story{
+        margin-top: 90px;
+    }
+    .story-1 h2{
+        font-size: 35px
+    }
+    .story-1 p{
+        margin-left: 85px;
+        width: 600px;
+    }
+
+    /* .card */
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Misson-1{
+        width: 600px;
+        height: 230px;
+    }
+    .Misson-1 p{
+        width: 550px;
+    }
+
+    .Misson-2{
+        width: 600px;
+        height: 230px;
+    }
+    .Misson-2 p{
+        width: 500px;
+    }
+
+    /* THE GLEAM VALUES */
+
+    .head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    /* .gleam-1 */
+
+    .gleam-1{
+        background-color: white;
+        box-shadow: -7px 13px 49px -3px rgba(0,0,0,0.30);
+        border-radius: 10px;
+        width: 330px;
+        height: 365px;
+    }
+    
+    .gleam-1 h2{
+        text-align: center;
+        color: #00a797;
+    }
+    
+    .gleam-1 img{
+        height: 160px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    
+    .gleam-1 p{
+        width: 300px;
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+    /* .gleam-2 */
+
+    .gleam-2{
+        background-color: white;
+        box-shadow: -7px 13px 49px -3px rgba(0,0,0,0.30);
+        border-radius: 10px;
+        width: 330px;
+        height: 365px;
+    }
+    
+    .gleam-2 h2{
+        text-align: center;
+        color:#00a797;
+    }
+    
+    .gleam-2 img{
+        height: 160px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    
+    .gleam-2 p{
+        width: 270px;
+        margin-left: 27px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* .gleam-3 */
+
+    .gleam-3{
+        background-color: white;
+        box-shadow: -7px 13px 49px -3px rgba(0,0,0,0.30);
+        border-radius: 10px;
+        width: 330px;
+        height: 365px;
+    }
+    
+    .gleam-3 h2{
+        text-align: center;
+        color: #00a797;
+    }
+    
+    .gleam-3 img{
+        height: 160px;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+    
+    .gleam-3 p{
+        width: 300px;
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* PIONEERING SOLUTIONS */
+
+    .pion h1{
+        margin-left: 140px;
+    }
+    .pion-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pion-2 {
+        text-align: center;
+        
+    }
+
+    .client-1{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .client-1 img {
+        margin-left: 0;
+        margin-top: 10px;
+        height: 288px;
+    }
+    .client-2 h3{
+        text-align: center;
+        margin-left: -50px;
+    }
+
+
+    .supp{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .supp img  {
+        margin-left: 200px;
+      height: 280px;
+      width: 46%;
+    }
+
+    .supp-1 h3 {
+        text-align: center;
+    }
+
+    .supp-1 p {
+        width: 85%;
+        margin-left: 45px;
+    }
+    .supp-1{
+     
+        text-align: center;
+    }
+
+
+    .test-im{
+        flex-wrap: wrap;
+    }
+
+
+    .brand-hp p {
+        margin-left: 130px;
+    }
+
+
+    .end {
+        flex-direction: column;
+        width: 700px;
+        margin-left: 27px;
+        height: 100px;
+    }
+
+    .end button {
+        margin-left: 0;
+        margin-top: 10px;
+        
+    }
+}
+
+@media screen and (max-width:430px){
+    .Bout{
+        overflow: hidden;
+    }
+
+    .Bout-hp p{
+        width: 400px;
+        margin-left: 100px;
+    }
+    .Bout-im img{
+        height: 200px;
+    }
+    .Bout-b button{
+        margin-top: 50px;
+    }
+
+    .story-1 p{
+        width: 400px;
+        margin-left: 20px;
+    }
+    
+    .card{
+        margin-left: -5px;
+    }
+    
+    .Misson-1{
+        height: 260px;
+        width: 400px;
+    }
+    .Misson-1 p{
+        width: 370px;
+        margin-left: 15px;
+    }
+    .Misson-2{
+        height: 260px;
+        width: 400px;
+    }
+    .Misson-2 p{
+        width: 370px;
+        margin-left: 10px;
+    }
+    .pion-2 p{
+        width: 400px;
+        margin-left: 15px;
+    }
+    .client-2 p{
+        width: 400px;
+        margin-left: -25px;
+    }
+    .client-1 img{
+        height: 180px;
+        margin-top: 30px;
+    }
+    .supp img{
+        margin-left: 130px;
+    }
+
+    .test-im img{
+        height: 380px;
+    }
+
+    .end{
+        width: 400px;
+        height: 200px;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .brand-hp p{
+        margin-left: 15px;
+        width: 400px;
+    }
+    .pion h1{
+        margin-left: -10px;
+        width: 450px;
+    }
+
+   
+}

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    padding: 0%;
+     margin: 0%;
+     font-family: "Inter", sans-serif;
+ }
+
+.Clients {
+    margin-top: 60px;
+}
+
+ .Clients h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+ }
+ 
+ .Clients img {
+    width:88%;
+    margin-left: 80px;
+ }
+
+/* Working Area  */
+ .working-process{
+    background-color: #00a797;
+    border-radius: 3%;
+ 
+}
+
+.working-process h1{
+    padding-top: 19px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.work-section-1 {
+     margin-top: 37px;
+     display: flex;
+     gap: 5%;
+     justify-content: center;
+     padding-bottom: 50px;
+     
+}
+
+.work-section-1 img {
+    width: 35%;
+}
+
+.w-head{
+    margin-top: 39px;
+    color: white;
+}
+
+.w-head p{
+    margin-top: 12px;
+}
+
+
+.linestyle {
+ margin-top: -50px;
+ margin-left: 23px;
+
+}
+.linestyle img{
+    width: 40%;
+    margin-top: -130px;
+    margin-left: 370px;
+    transform: rotate(-13deg);
+}
+
+
+
+/*  Booking section  */
+
+.booking{
+    background-color: rgb(13, 131, 114);
+    margin-top: -20px;
+    padding-top: 9%;
+}
+
+.flex-booking {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-booking h1{
+    text-transform: uppercase;
+     color: white;
+     font-weight: 800;
+     flex-basis: 40%;
+     margin-left: 8%;
+    font-size: xx-large;
+}
+
+.flex-booking img {
+  width: 40%; 
+}
+
+.picture-head {
+    position: absolute;
+    margin-top: -10%;
+}
+.picture-head img {
+    width: 25%;
+    margin-top: -13%;
+    margin-left: 9%;
+}
+
+.info{
+   display: flex;
+   flex-direction: column;
+    margin-left: 9%;
+    margin-top: 3%;
+    color: white;
+
+}
+
+.email-info {
+    margin-top: 12px;
+}
+
+
+
+.line-2 {
+    display: flex;
+  justify-content: center;
+}
+.line-2 img {
+  width: 30%;
+  transform: rotate(-20deg);
+  padding-bottom: 5%;
+}
+
+
+
+/* Responive ....!! */
+
+
+@media screen and (max-width : 1024px){
+      
+     .flex-booking h1 {
+        font-size: 1.6rem;
+     }
+
+        
+    .picture-head img {
+        margin-top: -5%;
+    }
+}
+
+
+@media screen and (max-width : 768px){
+    .w-head {
+        text-align: center;
+        font-size: medium;
+    }
+    
+    .w-head h1 {
+        padding: 0%;
+    }
+
+    .flex-booking h1 {
+        font-size: 1.5rem;
+     }
+
+     .picture-head img {
+        margin-top: -5%;
+    }
+}
+
+
+
+@media screen and (max-width : 430px) {
+    .Clients img {
+        width:88%;
+        margin-left: 26px;
+    }
+    .work-section-1{
+        flex-direction: column;
+        gap: 0;
+    }
+    .work-section-1 img {
+        margin-left: 30%;
+        width: 40%;
+    }
+
+    .w-head{
+        margin-top: 0px;
+        color: white;
+    }
+
+    .w-head h1 {
+        font-size: 23px;
+    }
+
+    .w-head p {
+        font-size: 10px;
+        text-align: center;
+        
+    }
+
+    .flex-booking {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .flex-booking h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .flex-booking img {
+        width: 60%;
+        margin-left: 22%;
+        margin-top: 80%;
+    }
+
+    .line-2{
+        display: none;
+    }
+
+    .linestyle{
+        display: none;
+    }
+    
+    .booking{
+        max-width: 40rem;
+    }
+
+    .picture-head {
+        position: absolute;
+        margin-top: -100%;
+    }
+
+    .picture-head img {
+        width: 70%;
+        margin-top: -17%;
+        margin-left: 16%;
+    }
+   
+   
+
+    .info {
+        display: block;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+
+    .email-info p {
+        margin-top: 0%;
+    }
+
+ 
+
+    
+
+  
+}
+
