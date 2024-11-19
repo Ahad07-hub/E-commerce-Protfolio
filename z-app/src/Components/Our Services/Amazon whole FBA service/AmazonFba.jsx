@@ -10,7 +10,8 @@ let cardeactive=()=> sethover(!hover)
   return (
     <>
       <div className='PL-warehouse'>
-    <div className="wareshouse-heading">
+    <div className="wareshouse-heading" data-aos="fade-right"
+     data-aos-offset="300" data-aos-duration="2000">
        <p className='warehouse-subhead'> Wholesale Services</p>
        <p> Navigate Towards  <br /> E-commerce  with <span style={{color:'#00a797'}}> <br />Ecom Gleam</span></p>
        <p className="manage-para">
@@ -22,7 +23,8 @@ let cardeactive=()=> sethover(!hover)
             <button>Our Story</button>
          
     </div>
-    <div className="wareshouse-video">
+    <div className="wareshouse-video" data-aos="fade-left"
+     data-aos-offset="300" data-aos-duration="2000">
    <img src={fbaimg} alt="" />
     </div>
    </div>
